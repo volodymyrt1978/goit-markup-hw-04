@@ -170,8 +170,13 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     
-    background-color: var(--primary-background-color);
+    background-color: rgba(196, 196, 196, 1);
+    background-image: url('../images/hero-team_opt.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px;
     
+
     text-align: center;
 }
 
