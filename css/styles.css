@@ -225,6 +225,11 @@ body {
 
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: rgba(24, 140, 232, 1);
+}
+
 /* стилизация секции "Наши преимущества" */
 .advantages-title {
     margin-bottom: 10px;
