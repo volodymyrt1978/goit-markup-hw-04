@@ -589,14 +589,18 @@ body {
     margin-top: calc(-1 * var(--projects-item-gap));
 }
 
+.projects .default-links {
+    display: block;
+}
+
 .projects .item {
     flex-basis: calc(100%/3 - var(--projects-item-gap)); /*+ 6px если рамка у всей карточки*/
     margin-left: var(--projects-item-gap); /*- 6px если рамка у всей карточки*/
     margin-top: var(--projects-item-gap);
 }
 
-.projects .item:hover,
-.projects .item:focus {
+.projects a:hover,
+.projects a:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
