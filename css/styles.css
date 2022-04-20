@@ -366,6 +366,8 @@ body {
 .item .card-content {
     padding-top: var(--projects-item-gap);
     padding-bottom: var(--projects-item-gap);
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .card-content .name {
@@ -374,10 +376,6 @@ body {
 
 .card-content .profession {
     margin-bottom: 16px;
-}
-
-.links-position {
-    padding: 0px 32px 0px 32px;
 }
 
 .card-links {
