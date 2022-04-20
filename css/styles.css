@@ -462,6 +462,10 @@ body {
     background-color: var(--primary-background-color);
 }
 
+.pagefoot .items-in-row {
+    align-items: baseline;
+}
+
 .pagefoot li {
     margin-bottom: 9px;
 }
@@ -491,7 +495,6 @@ body {
 
 .pagefoot .social-links {
     display: inline-block;
-    margin-top: 12px;
     margin-left: 70px;
 }
 
