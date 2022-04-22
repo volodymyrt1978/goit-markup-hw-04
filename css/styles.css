@@ -198,7 +198,10 @@ body {
     url('../images/hero-team_opt.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1600px 600px;
+    background-size: cover;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
     
 
     text-align: center;
